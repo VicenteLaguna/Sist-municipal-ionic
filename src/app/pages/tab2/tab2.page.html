@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Perfil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <ion-avatar class="avatar">
+          <ion-img src="assets/img/1.jpg"></ion-img>
+        </ion-avatar>
+      </div>
+    </div>
+  </div>
+  <ion-card class="card-body">
+      <ion-label class="misDatos">Detalles del perfil</ion-label>
+      <br>
+      <ion-label class="playername">Nombre: </ion-label>
+      <br>
+      <ion-label class="country">Correo: </ion-label>
+      <br>
+      <ion-label class="country">Perfil: </ion-label>
+      <br>
+      <ion-label class="country">Fecha de nacimiento: </ion-label>
+      <br>
+  </ion-card>
+  <div class="sign-btn-wrap">
+    <ion-button routerLink='/home'  expand="block" shape="round" fill="solid" class="sign-btn">Cerrar sesión</ion-button>
+    <ion-button  expand="block" shape="round" fill="solid" class="sign-btn">Editar Perfil</ion-button>
+    <ion-button  expand="block" shape="round" fill="solid" class="sign-btn">Cambiar contraseña</ion-button>
+  </div>
+</ion-content>
+

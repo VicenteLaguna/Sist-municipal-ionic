@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Crear cuenta</ion-title>
+    <ion-back-button slot="start"></ion-back-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="ion-no-margin">
+    <ion-card-header>
+      <ion-grid>
+        <ion-row>
+          <ion-col><img src="assets/img/logo_municipal.png" alt="" style="max-width: 60%;"></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><ion-label class="titulo" style="font-size: xx-large;">Completa los siguientes campos</ion-label>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-label position="stacked">Rut</ion-label>
+          <ion-input placeholder="Ingrese Rut"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Nombres</ion-label>
+          <ion-input placeholder="Ingrese Nombres"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Primer Apellido</ion-label>
+          <ion-input placeholder="Ingrese Primer Apellido"></ion-input>
+        </ion-item>
+        
+        <ion-item>
+          <ion-label position="stacked">Segundo Apellido</ion-label>
+          <ion-input placeholder="Ingrese Segundo Apellido"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Correo</ion-label>
+          <ion-input type="email" placeholder="Ingrese Correo"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Fecha de nacimiento</ion-label>
+          <ion-input type="date" placeholder="Seleccione edad"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Contraseña</ion-label>
+          <ion-input type="password" placeholder="Ingrese Contraseña"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="stacked">Repetir Contraseña</ion-label>
+          <ion-input placeholder="Repetir Contraseña"></ion-input>
+        </ion-item>
+      </ion-list>
+      <ion-button expand="block">Registrar</ion-button>
+      <ion-button expand="block">Limpiar</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
